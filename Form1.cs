@@ -16,5 +16,21 @@ namespace Example3
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalc1_Click(object sender, EventArgs e)
+        {
+            lblAns1.Text = String.Format("{0}", 1 + 2 * 3);
+
+        }
+
+        private void btnExp2_Click(object sender, EventArgs e)
+        {
+            lblAns2.Text = String.Format("{0}", (1 + 2) * 3);
+        }
     }
 }
